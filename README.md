@@ -49,7 +49,7 @@ kubectl apply -f k8s-wordpress-service
 Problems
 --------
 1. Problem with npc weave  
-(https://github.com/weaveworks/weave/issues/3761)[weave issue npc]
+[weave issue npc](https://github.com/weaveworks/weave/issues/3761)
 ```
 kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')&disable-npc=true"
 ```
