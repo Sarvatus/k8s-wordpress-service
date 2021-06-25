@@ -10,13 +10,13 @@ Requirements
 - 4GB free space on disk for 2 PersistentVolume's 
 - Created directories on node where objectes will be applied:
 ```
-mkdir -p /tmp/data/lv-1  
-mkdir -p /tmp/data/lv-2
+mkdir -p /var/wordpress/pv-1    
+mmkdir -p /var/wordpress/pv-2
 ```
 
 Variables
 --------------
-In wordpress-deployment.yaml 
+In wordpress-service.yaml
 ```
 spec:
   externalIPs:
