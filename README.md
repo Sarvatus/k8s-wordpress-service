@@ -11,7 +11,7 @@ Requirements
 - Created directories on node where objectes will be applied:
 ```
 mkdir -p /var/wordpress/pv-1    
-mmkdir -p /var/wordpress/pv-2
+mkdir -p /var/wordpress/pv-2
 ```
 
 Variables
